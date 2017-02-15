@@ -4,6 +4,9 @@
 jQuery.noConflict()
 //jQuery('.zy-slide'):轮播图的根标签,再调API zySlide()
 //zySlide()，只要轮播图的根标签 （任何选择器都可以）
-jQuery('.slide').zySlide({speed:1000});
-jQuery('#slide').zySlide({delay:2000,speed:5000});
+jQuery('.slide').zySlide({speed:1000}).css({'backgroundColor':'yellow'});
+jQuery('#slide').zySlide({delay:2000,speed:5000}).css({
+	'border':'2px solid red',
+	'backgroundColor':'aqua'
+});
 
